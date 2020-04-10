@@ -26,7 +26,7 @@ gpio_setpin_ddr('a',led3,output);
     {gpio_set_out_pin('a',led1,heigh);
     }else{gpio_set_out_pin('a',led1,low);}
 		
-		if (i==2||i==5||i==11)
+		if (i==2||i==5||i==8||i==11)
 			{gpio_set_out_pin('a',led2,heigh);
 		}else{gpio_set_out_pin('a',led2,low);}
 			
